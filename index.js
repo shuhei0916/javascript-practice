@@ -30,10 +30,20 @@ const obj = {
     color: 'pink', 
     size: 'large',
     perfume: 'mint',
-    printHello: () => {
-        console.log('Hello!');
-    }
 };
 
+
+
 console.log(obj.color);
-console.log(obj.printHello());
+// console.log(obj.printHello());
+console.log(obj);
+console.log(window.innerHeight);
+console.log(window.innerWidth);
+// window.alert('hello');
+
+function printHello() {
+    window.alert('hello hoge');
+}
+
+// console.log(document);
+document.getElementsByTagName('button')[0].addEventListener('click', printHello);
