@@ -47,7 +47,6 @@ const setupQuiz = () => {
         $button[buttonIndex].textContent = quiz[quizIndex].answers[buttonIndex];
         buttonIndex++;
     }
-     
 }
 
 setupQuiz();
