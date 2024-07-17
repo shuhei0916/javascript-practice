@@ -22,6 +22,8 @@ javascriptの練習用ライブラリ
 ## ディレクトリ構成
 
 ❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
+
+```
 .
 ├── README.md
 ├── accordion-UI
@@ -48,6 +50,7 @@ javascriptの練習用ライブラリ
     ├── package.json
     ├── public
     └── style.scss
+```
 
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
