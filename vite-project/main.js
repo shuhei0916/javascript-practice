@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import './test.scss'
 
 import Splide from '@splidejs/splide';
