@@ -1,4 +1,5 @@
 import './style.css'
+import './test.scss'
 
 import Splide from '@splidejs/splide';
 
@@ -14,4 +15,6 @@ import '@splidejs/splide/css/sea-green';
 // あるいは、コアスタイルのみ
 import '@splidejs/splide/css/core';
 
-new Splide( '.splide' ).mount();
+new Splide( '.splide', {
+  type   : 'loop',
+} ).mount();
