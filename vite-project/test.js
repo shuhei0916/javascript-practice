@@ -2,19 +2,20 @@ import assert from 'assert';
 import isLeapYear from './isLeapYear.js'
 
 describe('isLeapYear', function () {
-  it('should return true for 2024', function () {
-    const year1 = 2024;
-    assert.equal(isLeapYear(year1), true);
+  it ('should return false for a year divivible by 4', function () {
+    assert.equal(isLeapYear(2024), true);
   });
 
   it ('should return false for a year divivible by 100', function () {
-    const year = 1900;
-    assert.equal(isLeapYear(year), false);
+    assert.equal(isLeapYear(1900), false);
   });
   
-  it('should return false for 2025', function () {
-    const year2 = 2025;
-    assert.equal(isLeapYear(year2), false);
+  it ('should return true a year divivible by 400', function () {
+    assert.equal(isLeapYear(2000), true);
+  });
+  
+  it ('should return false for other year', function () {
+    assert.equal(isLeapYear(2025), false);
   });
 
 });
